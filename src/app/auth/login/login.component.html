@@ -1,0 +1,28 @@
+<div class="login">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-5 m-auto">
+                <p class="text-center mb-5">
+                    <img src="assets/img/svg/logo.svg" alt="">
+                </p>
+                <p class="text-center fs-36 ff-r fc-purple">
+                    Login
+                </p>
+                <div class="login-container">
+                    
+                    <input type="text" placeholder="Email Address" class="form-control login-form mb-4">
+                    <div class="input-group login-form mb-4">
+                        <input type="password" name="password" id="password" class="form-control"
+                            placeholder="Password">
+                        <div class="input-group-append pe-3">
+                            <i class="far fa-eye" id="togglePassword"></i>
+                        </div>
+                    </div>
+                    
+                    <button class="btn btn-purple w-100 mb-5" (click)="handle()">Log in to your account</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
