@@ -24,6 +24,6 @@ export class LoginComponent implements OnInit {
   }
 
   handle() {
-    this.router.navigate(['/tellers/2'])
+    this.router.navigate(['/app/tellers/2'])
   }
 }

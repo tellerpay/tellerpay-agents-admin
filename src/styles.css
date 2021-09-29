@@ -1,1 +1,305 @@
-/* You can add global styles to this file, and also import other style files */
+.fc-purple {
+    color: #5C2682;
+}
+
+.fc-purple-1 {
+    color: #80718A;
+}
+
+.fc-purple-2 {
+    color: #2D0649;
+}
+
+.fc-purple-light {
+    color: #CD9FED;
+}
+
+.fc-grey {
+    color: #80718A;
+}
+
+.fc-grey-1 {
+    color: #BFC5C8;
+}
+
+.ff-r {
+    font-family: "Red Hat Display";
+}
+
+.fw-5 {
+    font-weight: 500;
+}
+
+.fw-7 {
+    font-weight: 700;
+}
+
+.fs-10 {
+    font-size: 10px;
+    line-height: 124.5%;
+}
+
+.fc-12 {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.fc-14 {
+    font-size: 14px;
+    line-height: 124.5%;
+}
+
+
+.fs-18 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.fs-20 {
+    font-size: 20px;
+    line-height: 124.5%;
+}
+
+.fs-24 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.fs-25 {
+    font-size: 25.92px;
+    line-height: 124.5%;
+}
+
+.fs-30 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.fs-36 {
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.fs-42 {
+    font-size: 41.9904px;
+    line-height: 124.5%;
+}
+
+
+
+.tellers {
+    border: 1px solid #C8C0CD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.tellers.minWidth {
+    min-width: 185px;
+}
+
+.input-group.search {
+    height: 35px;
+    border: none;
+    background: none;
+}
+
+.input-group.search .input-group-prepend {
+    padding-top: 7px;
+}
+
+.input-group.search input.form-control {
+    border: none;
+    background: none;
+    height: 34px;
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 124.5%;
+}
+
+.input-group.search input.form-control::placeholder {
+    color: #C8C0CD;
+}
+
+.input-group.search input.form-control:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.input-group.sort {
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 6px;
+    height: 35px;
+}
+
+.input-group.sort .input-group-prepend {
+    padding-top: 4px;
+    padding-left: 10px;
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #C8C0CD;
+}
+
+.input-group.sort select.form-select {
+    border: none;
+    background: none;
+    height: 34px;
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 124.5%;
+    color: #2D0649;
+}
+
+.table.tellers {
+    border: none;
+}
+
+.table.tellers thead tr th {
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 124.5%;
+    color: #C8C0CD;
+    border: none;
+    border-top: 0.3px solid #C8C0CD;
+}
+
+.table.tellers tbody tr td {
+    border: none;
+    border-top: 0.3px solid #C8C0CD;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 124.5%;
+    color: #2D0649;
+}
+
+.table.transaction {
+    border: none;
+}
+
+.table.transaction thead tr th {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 24px;
+    color: #80718A;
+    border: none;
+    border-top: 0.5px solid #CCCCCC;
+}
+
+.table.transaction tbody tr td {
+    border: none;
+    border-top: 0.5px solid #CCCCCC;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 40px;
+}
+
+
+.teller-details {
+    background: rgba(200, 192, 205, 0.1);
+    height: calc(100vh - 120px);
+    padding: 19px;
+}
+
+.teller-details.no-padding {
+    padding: 0;
+}
+
+.status {
+    border-radius: 2px;
+    height: 20px;
+    width: 50px;
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.status.success {
+    background: #02B057;
+}
+
+.status.failed {
+    background: #C5292A;
+}
+
+.terminals {
+    background: #FFFFFF;
+    border: 1px solid #A4CDF1;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 25px;
+}
+
+.btn-purple {
+    background: #5C2682;
+    border-radius: 5px;
+    height: 58px;
+    color: #fff;
+    font-family: 'Red Hat Display';
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.btn-purple.medium {
+    height: 37px;
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.btn-purple.small {
+    height: 24px;
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 124.5%;
+}
+
+.btn-purple:hover {
+    transition: .3s ease-in-out;
+    border: 1.5px solid #5C2682;
+    color: #5C2682;
+    background: transparent;
+    box-shadow: inset 9.5em 0 0 0 transparent;
+}
+
+.btn-out-purple {
+    border: 1.5px solid #5C2682;
+    height: 58px;
+    border-radius: 5px;
+    font-family: 'Red Hat Display';
+    font-size: 20px;
+    line-height: 26px;
+    color: #5C2682;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
